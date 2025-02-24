@@ -126,7 +126,6 @@ class DeclutteringCard extends LitElement {
       },
       { once: true },
     );
-    element.id = 'declutter-child';
     return element;
   }
 
