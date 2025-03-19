@@ -49,7 +49,9 @@ class DeclutteringCard extends LitElement {
       :host(.child-card-hidden) {
         display: none;
       }
-    `;
+      #root {
+        height: 100%;
+      }`;
   }
 
   protected firstUpdated(): void {
